@@ -4,7 +4,11 @@
     <title>Download PDF</title>
 </head>
 <body>
-    <form action="download2.php" method="post">
+    <form action="download3.php" method="post">
+        <label for="customer_name">Customer Name:</label><br>
+        <input type="text" id="customer_name" name="customer_name" required><br>
+        <label for="loan_installment">Monthly Installment:</label><br>
+        <textarea id="loan_installment" name="loan_installment" rows="4" cols="50" required></textarea><br><br>
         <button type="submit">Download PDF</button>
     </form>
 </body>
